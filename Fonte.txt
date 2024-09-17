@@ -1,0 +1,10 @@
+10 rem BASIC
+20 rem SOMATORIO
+30 print "Digite um valor x"
+40 S=0 : input x
+50 A=x
+60 if A<=0 goto 90
+70 S=S+A : A=A-1
+80 goto 60
+90 print x : print S
+100 HALT
